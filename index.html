@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo HTML</title>
+</head>
+
+<body>
+    <header>
+        <h1>Ejemplo HTML</h1>
+
+        <nav aria-label="Menú">
+            <ul>
+                <li><a href="#formularios">Formularios</a></li>
+                <li><a href="#multimedia">Multimedia</a></li>
+                <li><a href="#tablas">Tablas</a></li>
+                <li><a href="#listas">Listas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article id="html">
+            <h2>HTML</h2>
+
+            <section id="parrafos">
+                <h3>Parrafos</h3>
+
+                <pre>
+public class HolaMundo {
+    public static void main(String[] args) {
+        System.out.println("Hola mundo");
+    }
+}
+                </pre>
+
+                <p>Lorem <strong>ipsum</strong> dolor sit amet consectetur adipisicing elit. Repudiandae, ipsum.</p>
+                <p>In perspiciatis <em>libero</em> beatae accusamus optio alias nesciunt asperiores iure?</p>
+                <p>Hic laborum error <span class="destacado">cupiditate</span> praesentium officiis aut rerum eos
+                    voluptatibus.</p>
+            </section>
+
+            <section id="listas">
+                <h3>Listas</h3>
+
+                <!-- Unordered list -->
+                <ul>
+                    <!-- List item -->
+                    <li>Elemento 1</li>
+                    <li>Elemento 2
+                        <!-- Nested list -->
+                        <ul>
+                            <li>Elemento 1</li>
+                            <li>Elemento 2</li>
+                            <li>Elemento 3</li>
+                        </ul>
+                    </li>
+                    <li>Elemento 3</li>
+                </ul>
+
+                <!-- Ordered list -->
+                <ol>
+                    <li>Elemento 1</li>
+                    <li>Elemento 2</li>
+                    <li>Elemento 3</li>
+                </ol>
+
+                <!-- Definition list -->
+                <dl>
+                    <!-- Definition Term -->
+                    <dt>Elemento 1</dt>
+                    <!-- Definition Description -->
+                    <dd>Descripción 1</dd>
+
+                    <dt>Elemento 2</dt>
+                    <dd>Descripción 2</dd>
+
+                    <dt>Elemento 3</dt>
+                    <dd>Descripción 3</dd>
+                </dl>
+            </section>
+
+            <section id="tablas">
+                <h3>Tablas</h3>
+
+                <table>
+                    <caption>Listado de productos</caption>
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Ordenador portátil</td>
+                            <td>1000€</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Monitor</td>
+                            <td>300€</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Ratón</td>
+                            <td>20€</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Teclado</td>
+                            <td>30€</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Impresora</td>
+                            <td>150€</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Altavoces</td>
+                            <td>50€</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Disco duro externo</td>
+                            <td>80€</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Memoria RAM</td>
+                            <td>60€</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Webcam</td>
+                            <td>40€</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Auriculares</td>
+                            <td>25€</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="multimedia">
+                <h3>Multimedia</h3>
+
+                <figure>
+                    <img src="https://picsum.photos/id/237/200/300" alt="Imagen">
+                    <figcaption>Imagen de prueba</figcaption>
+                </figure>
+
+                <audio src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" controls></audio>
+
+                <video src="https://www.w3schools.com/html/mov_bbb.mp4" controls width="400"></video>
+
+                <iframe title="Mapa"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.2032608667214!2d-6.95940802353155!3d37.2666068721179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd11cfd7a63bf315%3A0x928b3b0f03baa2b0!2sAv.%20Costa%20de%20la%20Luz%2C%2021002%20Huelva!5e0!3m2!1ses!2ses!4v1699976261526!5m2!1ses!2ses"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <iframe title="Spotify" style="border-radius:12px"
+                    src="https://open.spotify.com/embed/album/6BGN5CVd7koJApotl5Bj8u?utm_source=generator" width="600"
+                    height="152" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Q31M-89uJTY?si=5LkF8VMyOoOrUt9U"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
+            </section>
+
+            <section id="formularios">
+                <h3>Formularios</h3>
+
+                <form action="www.google.es/search?q=prueba">
+                    <fieldset>
+                        <legend>Buscar en Google</legend>
+                        <input type="search" name="q" placeholder="Introduce el texto a buscar">
+                        <button>Buscar</button>
+                    </fieldset>
+                </form>
+
+                <form>
+                    <fieldset>
+                        <legend>Formulario</legend>
+
+                        <div>
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" required minlength="5" maxlength="50">
+                        </div>
+
+                        <div>
+                            <label for="apellidos">Apellidos</label>
+                            <input type="text" id="apellidos">
+                        </div>
+
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" id="email">
+                        </div>
+
+                        <div>
+                            <label>Contraseña</label>
+                            <input type="password" id="contrasenya">
+                        </div>
+
+                        <div>
+                            <label for="fecha">Fecha</label>
+                            <input type="date" id="fecha">
+                        </div>
+
+                        <div>
+                            <label for="color">Color</label>
+                            <input type="color" id="color">
+                        </div>
+
+                        <div>
+                            <label for="archivo">Archivo</label>
+                            <input type="file" id="archivo">
+                        </div>
+
+                        <div>
+                            <label for="hora">Hora</label>
+                            <input type="time" id="hora">
+                        </div>
+
+                        <div>
+                            <label for="numero">Numero</label>
+                            <input type="number" id="numero" min="0">
+                        </div>
+
+                        <div>
+                            <label for="url">Url</label>
+                            <input type="url" id="url">
+                        </div>
+
+                        <div>
+                            <label>Sexo:</label>
+                            <label>Hombre</label>
+                            <input type="radio" id="h" name="Sexo">
+                            <label>Mujer</label>
+                            <input type="radio" id="m" name="Sexo">
+                        </div>
+
+                        <div>
+                            <label>Checkbox:</label>
+                            <label>Opcion 1</label>
+                            <input type="checkbox" id="1">
+                            <label>Opcion 2</label>
+                            <input type="checkbox" id="2">
+                            <label>Opcion 3</label>
+                            <input type="checkbox" id="3">
+                        </div>
+
+                        <div>
+                            <label>Comentarios</label>
+                            <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+                        </div>
+
+                        <div>
+                            <label for="select">Select</label>
+                            <select name="select" id="select">
+                                <option value="option1">Option 1</option>
+                                <option value="option2">Option 2</option>
+                                <option value="option3">Option 3</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="range">Range</label>
+                            <input type="range" id="range">
+                        </div>
+
+                        <div>
+                            <label for="search">Search</label>
+                            <input type="search" id="search">
+                        </div>
+
+                        <input type="submit" value="Enviar">
+                    </fieldset>
+                </form>
+            </section>
+        </article>
+    </main>
+    <aside>
+        <!-- nav>ul>li*5>a[href="#"]{Elemento $} -->
+        <nav aria-label="Anuncios">
+            <ul>
+                <li><a href="#">Elemento 1</a></li>
+                <li><a href="#">Elemento 2</a></li>
+                <li><a href="#">Elemento 3</a></li>
+                <li><a href="#">Elemento 4</a></li>
+                <li><a href="#">Elemento 5</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <footer>
+        <p>&copy;2023 Jose</p>
+        <p>
+            <a href="#">Arriba</a>
+        </p>
+    </footer>
+</body>
+
+</html>
